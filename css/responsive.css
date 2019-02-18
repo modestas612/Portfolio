@@ -1,0 +1,338 @@
+/* HEADER */
+
+@media ( max-width: 850px ) {
+    .menu-toggle{
+        display: block;
+    }
+    #main_nav{
+        /* display: none; */
+        position: absolute;
+        width: 150px;
+        margin-left: calc(100% - 150px);
+        height: calc( auto - 50px );
+        background: transparent;
+        top: -220px;
+        right: 10px;
+        transition: 0.5s;
+        border-radius: 15px;
+    }
+        #main_nav.active{
+            top: 60px;
+        }
+
+        #main_nav > a {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+        header.fixed-header #main_nav {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+}
+
+/* HERO */
+
+@media ( max-width: 850px ) {
+    .hero-txt {
+        margin-top: 50px; 
+    }
+        .hero-txt > h3 {
+            font-size: 20px;
+            line-height: 25px;
+        }
+        .hero-txt > h1 {
+            font-size: 40px;
+            line-height: 45px;
+        }
+        .button {
+            padding: 10px;
+        }
+}
+
+@media ( max-width: 350px ) {
+    .hero-txt > h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .hero-txt > h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .hero-txt > p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .button {
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+/* ABOUT ME */
+
+@media ( max-width: 1200px ) {
+    .conteiner > .row {
+        width: 100%;
+        margin: 0;
+    }
+    .about-me.conteiner {
+        height: 140vh;
+    }
+    .about-me > .row{
+        display: block;
+        float: left;
+        height: 140vh;
+    }
+    .personal-pic{
+        width: 80%;
+        margin: 0 10%;
+        text-align: center;
+    }
+        .personal-pic img{
+            margin: 40px 0;
+        }
+    .about-me-content{
+        width: 500px;
+        margin-left: calc(50% - 250px);
+    }
+    .icon-group{
+        width: 100%;
+   } 
+}
+
+@media ( max-width: 650px ) {
+    .personal-pic img{
+        width: 250px;
+        height: 250px;
+    }
+    .about-me-content{
+        width: 250px;
+        margin-left: calc(50% - 125px);
+        text-align: left;
+    }
+}
+
+/* services */
+
+@media ( max-width: 1200px ) {
+    #service_block{
+        width: 800px;
+        margin-left: calc(50% - 400px);
+    }
+    .service-box {
+        width: calc((100% - 40px) / 2);
+    }
+        .service-box:nth-child(2n) {
+            margin-right: 0;
+        }
+}
+
+@media ( max-width: 800px ) {
+    #service_block{
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+    .service-box {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media ( max-width: 500px ) {
+    #service_block{
+        width: 250px;
+        margin-left: calc(50% - 125px);
+    }
+    .service-box {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* resume */
+
+@media ( max-width: 1200px ) {
+    #resume_block{
+        width: 600px;
+        margin-left: calc(50% - 300px);
+    }
+    .resume-box {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 700px ) {
+    #resume_block{
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+    .resume-box {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 500px ) {
+    #resume_block{
+        width: 250px;
+        margin-left: calc(50% - 125px);
+    }
+    .resume-box {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* I AM AVAILABLE FOR FREELANCE */
+
+@media ( max-width: 250px ) {
+    #fr.conteiner{
+        height: auto;
+    }
+}
+
+/* PORTFOLIO */
+
+@media (max-width: 1200px ) {
+    #portfolio_gallery{
+        width: 800px;
+        margin-left: calc(50% - 400px);
+    }
+    #portfolio_content > .portfolio-item {
+        width: calc( (100% - 20px) / 2 );
+    }
+        #portfolio_content > .portfolio-item:nth-child(3n) {
+            margin-right: 20px;
+        }
+
+        #portfolio_content > .portfolio-item:nth-child(2n) {
+            margin-right: 0;
+        }
+        
+        
+}
+
+@media (max-width: 800px ) {
+    #portfolio_gallery{
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+    #portfolio_content > .portfolio-item {
+        width: 100%;
+        height: 400px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 500px ) {
+    #portfolio_gallery{
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+    #portfolio_content > .portfolio-item {
+        width: 100%;
+        margin-right: 0;
+        height: 300px;
+    }
+}
+
+/* TESTIMONIALS */
+
+@media (max-width: 700px ) {
+    .item{
+        width: 400px;
+        height: 350px;
+        margin-left: calc(50% - 200px);
+    }
+}
+
+@media (max-width: 450px ) {
+    .item{
+        width: 250px;
+        height: auto;
+        margin-left: calc(50% - 125px);
+    }
+}
+
+/* BLOGS */
+
+@media (max-width: 1200px ) {
+    #blog_gallery{
+        width: 800px;
+        margin-left: calc(50% - 400px);
+    }
+    .blog-box {
+        width: calc((100% - 40px) / 2);
+    }
+        .blog-box:nth-child(2n) {
+            margin-right: 0;
+        }
+}
+
+
+@media ( max-width: 800px ) {
+    #blog_gallery{
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+    .blog-box {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media ( max-width: 500px ) {
+    #blog_gallery{
+        width: 250px;
+        margin-left: calc(50% - 125px);
+    }
+    .blog-box {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* CONTACTS */
+
+@media (max-width: 1200px ) {
+    .form-box{
+        width: 500px;
+        margin-left: calc(50% - 250px);
+        margin-bottom: 40px;
+    }
+    .contact-info-box{
+        width: 300px;
+        margin-left: calc(50% - 150px);
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 600px ) {
+    .form-box{
+        width: 300px;
+        margin-left: calc(50% - 150px);
+        margin-bottom: 40px;
+    }
+    .contact-info-box{
+        width: 300px;
+        margin-left: calc(50% - 150px);
+        margin-bottom: 60px;
+    }
+
+    .name, .phone, .email, .website {
+        width: 100%;
+        padding-left: 0;
+    }
+    .textarea{
+        width: 100%;
+    }
+}
+
+/* FOOTER */
+
+@media (max-width: 400px ) {
+    #footer.conteiner{
+        height: auto;
+    }
+}
