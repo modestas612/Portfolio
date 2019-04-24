@@ -1,3 +1,3 @@
 ## Personal protfolio template
 
-You can use the Portfolio page [here](https://modestas612.github.io/portfolio/) 
+You can see the Portfolio page [here](https://modestas612.github.io/portfolio/) 
